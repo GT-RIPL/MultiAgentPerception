@@ -7,7 +7,7 @@ This is the PyTorch implementation of our paper: <br>
 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020 <br>
 
 
-[[Paper (Coming soon)](https://ycliu93.github.io/projects/multi_agent_perception.html)] [[GitHub](https://github.gatech.edu/RIPL/multi-agent-perception)] [[Project](https://ycliu93.github.io/projects/multi-agent-perception.html)]
+[[Paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Liu_When2com_Multi-Agent_Perception_via_Communication_Graph_Grouping_CVPR_2020_paper.pdf)] [[GitHub](https://github.gatech.edu/RIPL/multi-agent-perception)] [[Project](https://ycliu93.github.io/projects/multi-agent-perception.html)]
 
 <p align="center">
 <img src="teaser/1359-teaser.gif" width="50%">

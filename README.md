@@ -15,7 +15,7 @@ IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020 <br>
 
 ## Prerequisites
 - Python 3.6
-- Pytorch 1.0 
+- Pytorch 0.4.1
 - Other required packages in `requirement.txt`
 
 

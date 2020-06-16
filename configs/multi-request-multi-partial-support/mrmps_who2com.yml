@@ -1,0 +1,40 @@
+model:
+    arch: MIMOcomWho
+    agent_num: 5
+    shared_policy: True
+    shared_img_encoder: 'unified'
+    attention: 'general'
+    sparse: False
+    query: False
+    query_size: 32
+    key_size: 1024
+    enc_backbone: resnet_encoder
+    dec_backbone: simple_decoder
+    feat_squeezer: -1
+    feat_channel: 512
+    multiple_output: True
+data:
+    dataset: airsim
+    train_split: train
+    val_split: val
+    test_split: test
+    img_rows: 512
+    img_cols: 512
+    path: dataset/airsim-mrmps-noise-data
+    noisy_type: None
+    target_view: 'DroneNP'
+    commun_label: 'mimo'
+training:
+    train_iters: 200000
+    batch_size: 2
+    val_interval: 1000
+    n_workers: 16
+    print_interval: 50
+    optimizer:
+        name: 'adam'
+        lr: 1.0e-5
+    loss:
+        name: 'cross_entropy'
+        size_average: True
+    lr_schedule:
+    resume: None

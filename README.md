@@ -34,7 +34,7 @@ source actviate semseg
 
 ### Install the required packages
 ```
-conda install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Download AirSim-MAP dataset and unzip it. 
